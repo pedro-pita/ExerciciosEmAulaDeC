@@ -19,8 +19,8 @@ int main(){
 	int z,*y;
 	//Ponteiros nao inicializados pode ter um valor especial NUL,representa o dereço vazio, adrao (null)*/
 	int p =10;
-	int *p;
-	p=&x;
+	int *x;
+	x=&p;
 	printf("x=%d\n",x);
 	printf("&x=%d\n",&x);
 	printf("p=%d\n",p);
