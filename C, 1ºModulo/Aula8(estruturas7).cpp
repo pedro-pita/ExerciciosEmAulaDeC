@@ -30,8 +30,7 @@ int imprimir1(struct pessoa p){
 struct pessoa preencherPessoa(char nomeP[], char mora[], int ida, int bi){
 	struct pessoa p;
 	strcpy(p.nomePessoa, nomeP);
-	strcpy(p.morada, mora)
-	;
+	strcpy(p.morada, mora);
 	p.idade = ida;
 	p.bi = bi;
 	return p;
